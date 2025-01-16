@@ -1,0 +1,39 @@
+{
+    "name": "tochka/docblock-parser",
+    "description": "Parser for PhpDoc with extended types",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Babushkin Pavel",
+            "email": "darkdarin@tochka.com"
+        }
+    ],
+    "require": {
+        "php": "8.2.*|8.3.*|8.4.*",
+        "ext-tokenizer": "*",
+        "tochka-developers/types": "^1.0",
+        "phpstan/phpdoc-parser": "^1.30"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "mockery/mockery": "^1.6",
+        "phpunit/phpunit": "^10.0",
+        "laravel/pint": "^1.18",
+        "vimeo/psalm": "^5.26"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tochka\\DocBlockParser\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TochkaTest\\DocBlockParser\\": "tests/"
+        }
+    },
+    "scripts": {
+        "pint": "vendor/bin/pint",
+        "psalm": "vendor/bin/psalm --output-format=phpstorm --no-cache"
+    }
+}
