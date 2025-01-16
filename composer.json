@@ -1,5 +1,5 @@
 {
-    "name": "tochka/docblock-parser",
+    "name": "tochka-developers/docblock-parser",
     "description": "Parser for PhpDoc with extended types",
     "type": "package",
     "license": "MIT",

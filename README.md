@@ -1,3 +1,3 @@
-# tochka/hyperf-openrpc
+# tochka-developers/docblock-parser
 
-Генератор схемы JsonRpc сервера в формате OpenRpc
+Parser for PhpDoc with extended types
